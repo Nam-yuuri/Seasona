@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/22e64ba7d1.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="//fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Handlee&family=Indie+Flower&family=Kalam:wght@300;400;700&family=Parisienne&family=Roboto+Slab:wght@100;200;300;400&family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,900&family=Sacramento&family=Shadows+Into+Light&family=Yellowtail&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
+
+    <link rel="stylesheet" href="../JS/js.js">
+    <link rel="stylesheet" href="../CSS/Main.css">
+
+    <link rel="stylesheet" href="../CSS/Book_offer.css">
+
+
+
+    <title>Book offer</title>
+</head>
+
+<body onscroll="myFunction2()">
+    <div class="header" id="header" style="display: none;">
+        <div class="header__top-wp">
+            <div class="container">
+                <div class="header__top" id="header_top">
+                    <div class="header__logo" id="header-logo">
+                        <a href="#">
+                            <img src="../IMG/logohotel.png" alt="">
+                        </a>
+                    </div>
+                    <div class="header__content">
+                        <ul class="header__link">
+                            <li>
+                                <a href="tel:+84 228 3676 888">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>+84 228 3676 888</span>
+                                </a>
+                            </li>
+                            <li class="d-none d-lg-block">
+                                <a href="#">info@namcuongnamdinhhotel.com.vn</a>
+                            </li>
+                        </ul>
+                        <div class="lang-menu">
+                            <span class="lang-menu_icon">
+                                English
+                                <i class="fa-solid fa-angle-down"></i>
+                            </span>
+                            <div class="lang-menu_drop">
+                                <a class="dropdown-item" href="#"><span>English</span></a>
+                                <a class="dropdown-item" href="#"><span>Tiếng Việt</span></a>
+                            </div>
+                        </div>
+                        <div class="nav-icon">
+                            <span class="fal fa-bars"></span>
+                        </div>
+                        <div class="header__book" id="header-book">
+                            <button class="btn tran_bg-btn header__btn">
+                                <span>Book Now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav__menu__none" id="nav-menu">
+                    <div class="nav__list">
+                        <li class="nav__item" id="nav-item">
+                            <a class="nav__link" id="nav-link" href="#">ROMOMS & SUITES</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" id="nav-link" href="#">OFFERS
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                            <ul class="nav__child">
+                                <li><a href="#">ROOM OFFERS</a></li>
+                                <li><a href="#">August Deals</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" id="nav-link" href="#">MEETINGS & EVENTS
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                            <ul class="nav__child">
+                                <li><a href="##">Meetings &amp; Events RFP</a></li>
+                                <li><a href="##">BUSINESS MEETINGS</a></li>
+                                <li><a href="##">Wedding Service</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" id="nav-link" href="#">
+                                DINING
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                            <ul class="nav__child">
+                                <li><a href="##">Tam Xoan Restaurant</a></li>
+                                <li><a href="##">DINING RESERVATIONS</a></li>
+                                <li><a href="##">Dong Duong Bar</a></li>
+                                <li><a href="##">Tuc Mac Tea &amp; Coffee Salon</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" id="nav-link" href="#">
+                                FACILINGTIES & SERVICES
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                            <ul class="nav__child">
+                                <li><a href="#">SWIMMING POOL</a></li>
+                                <li><a href="#">GYM &amp; YOGA</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" id="nav-link" href="#">EXPERIENCES
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                            <ul class="nav__child">
+                                <li><a href="#">UNLOCK KL'S DIAMOND TRIANGLE</a></li>
+                                <li><a href="#">AEON PUTRA MALL</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" id="nav-link" href="#">GALLERY</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" id="nav-link" href="#">CONTACT US</a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__main" id="header-main">
+            <div class="container">
+                <div class="nav__menu">
+                    <div class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">ROMOMS & SUITES</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">OFFERS
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                            <ul class="nav__child">
+                                <li><a href="#">ROOM OFFERS</a></li>
+                                <li><a href="#">August Deals</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">MEETINGS & EVENTS
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                            <ul class="nav__child">
+                                <li><a href="#">Meetings &amp; Events RFP</a></li>
+                                <li><a href="#">BUSINESS MEETINGS</a></li>
+                                <li><a href="#">Wedding Service</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">
+                                DINING
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                            <ul class="nav__child">
+                                <li><a href="#">Tam Xoan Restaurant</a></li>
+                                <li><a href="#">DINING RESERVATIONS</a></li>
+                                <li><a href="#">Dong Duong Bar</a></li>
+                                <li><a href="#">Tuc Mac Tea &amp; Coffee Salon</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">
+                                FACILINGTIES & SERVICES
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                            <ul class="nav__child">
+                                <li><a href="#">SWIMMING POOL</a></li>
+                                <li><a href="#">GYM &amp; YOGA</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">EXPERIENCES
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                            <ul class="nav__child">
+                                <li><a href="#">UNLOCK KL'S DIAMOND TRIANGLE</a></li>
+                                <li><a href="#">AEON PUTRA MALL</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">GALLERY</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">CONTACT US</a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-mobile" style="display: none;">
+        <div class="logo">
+            <img src="../IMG/logohotel.png" alt="">
+        </div>
+        <div class="header_box">
+            <div class="phone-mobile">
+                <a href="tel:+84 228 3676 888">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+84 228 3676 888</span>
+                </a>
+            </div>
+            <div class="lang-menu">
+                <span class="lang-menu_icon">
+                    English
+                    <i class="fa-solid fa-angle-down"></i>
+                </span>
+                <div class="lang-menu_drop">
+                    <a class="dropdown-item" href="#"><span>English</span></a>
+                    <a class="dropdown-item" href="#"><span>Tiếng Việt</span></a>
+                </div>
+            </div>
+            <label for="">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <button class="btn tran_bg-btn header__btn">
+                <span>Book Now</span>
+            </button>
+        </div>
+    </div>
+    <div class="banner-home_wp" style="display: none;">
+        <div class="banner__home">
+            <div class="banner__slide owl-carousel owl-theme owl-loaded owl-drag">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage">
+                        <div class="owl-item active">
+                            <div class="banner__item">
+                                <div class="banner__img">
+                                    <img class="Group4_box-img--img1" id="img" onclick="changeImage()"
+                                        src="../IMG/Pool 00015.jpg" alt="">
+                                </div>
+                                <div class="banner__caption">
+                                    <div class="banner__name">
+                                        <div class="banner__box__name banner__name__text">
+                                            <a href="#" class="banner__btn banner__boxchil__name">
+                                                <h1 class="animate__animated">
+                                                    Nam Cuong Hotel & Resort
+                                                </h1>
+                                            </a>
+                                        </div>
+                                        <h3 class="banner__title"></h3>
+                                        <div class="banner__box__btn banner__name__text">
+                                            <a href="#" class="banner__btn banner__button">
+                                                Book Now
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-nav disabled">
+
+                </div>
+            </div>
+        </div>
+        <div class="quick-book">
+            <div class="container">
+                <form action="/CheckAvailability" id="booking-room" method="get">
+                    <div class="row no-gutters">
+                        <div class="no-hutters_box">
+                            <div class="form-group br-group">
+                                <div class="bm-bar__icon"><i class="fa-solid fa-bed"></i></div>
+                                <input class="br-control form-control" type="number" autocomplete="off"
+                                    name="NumberRoom" id="rooms" placeholder="NO. OF ROOMS" value="" min="1">
+                            </div>
+                        </div>
+                        <label class="no-hutters_box" for="br-dropdown_label">
+                            <div class="form-group br-group">
+                                <div class="bm-bar__icon"><i class="fa-solid fa-user-group"></i></div>
+                                <div class="br-control form-control">
+                                    <span class="br-adult">2</span>
+                                    <span>Adults, </span>
+                                    <span class="br-child">0</span>
+                                    <span>Child</span>
+                                </div>
+                                <input type="checkbox" name="" id="br-dropdown_label" style="display: none;">
+                                <div class="br-dropdown active">
+                                    <label class="br-close" for="br-dropdown_label"><i
+                                            class="fa-solid fa-xmark"></i></label>
+                                    <div class="qty">
+                                        <label class="qty-label" for="adults">Adults</label>
+                                        <div class="qty-group mb-4">
+                                            <span class="qty-decrease qty-btn"><i class="fa-solid fa-minus"></i></span>
+                                            <input class="qty-input" type="text" name="Adult" readonly="" id="adults"
+                                                min="1" value="2"><span class="qty-increase qty-btn"><i
+                                                    class="far fa-plus"></i></span>
+                                        </div>
+                                        <label class="qty-label" for="adults">Child</label>
+                                        <div class="qty-group">
+                                            <span class="qty-decrease qty-btn"><i class="fa-solid fa-minus"></i></span>
+                                            <input class="qty-input" type="text" name="Child" readonly="" id="children"
+                                                min="0" value="0"><span class="qty-increase qty-btn"><i
+                                                    class="far fa-plus"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                        <label class="no-hutters_box" for="date-wp-id">
+                            <label class="form-group br-group" for="date-wp-id">
+                                <div class="bm-bar__icon"><i class="fa-solid fa-calendar-days"></i></div>
+                                <input type="text" name="DateInOut" autocomplete="off"
+                                    class="br-datepicker js-toggle form-control br-control"
+                                    placeholder="CHECK IN / CHECK OUT" onclick="Clicka()">
+                                <i class="fa-solid fa-angle-down" style="margin-right: 15px;"></i>
+                            </label>
+                            <input type="checkbox" id="date-wp-id" style="display: none;">
+                            <div class="datepicker-container date-wp active"
+                                style="position: absolute;width: 720px;bottom: 60px;left: -100%">
+                                <div class="daterangepicker ltr show-calendar opensright"
+                                    style="top: 485.025px; left: 249px; right: auto; display: flex;flex-wrap: wrap;width: 720px;">
+                                    <div class="ranges"></div>
+                                    <div class="drp-calendar left">
+                                        <div class="calendar-table">
+                                            <table class="table-condensed">
+                                                <thead>
+                                                    <tr>
+                                                        <th></th>
+                                                        <th colspan="5" class="month">June 2022</th>
+                                                        <th></th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Su</th>
+                                                        <th>Mo</th>
+                                                        <th>Tu</th>
+                                                        <th>We</th>
+                                                        <th>Th</th>
+                                                        <th>Fr</th>
+                                                        <th>Sa</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="weekend off ends off disabled" data-title="r0c0">29
+                                                        </td>
+                                                        <td class="off ends off disabled" data-title="r0c1">30</td>
+                                                        <td class="off ends off disabled" data-title="r0c2">31</td>
+                                                        <td class="off disabled" data-title="r0c3">1</td>
+                                                        <td class="off disabled" data-title="r0c4">2</td>
+                                                        <td class="off disabled" data-title="r0c5">3</td>
+                                                        <td class="weekend off disabled" data-title="r0c6">4</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="weekend off disabled" data-title="r1c0">5</td>
+                                                        <td class="off disabled" data-title="r1c1">6</td>
+                                                        <td class="off disabled" data-title="r1c2">7</td>
+                                                        <td class="off disabled" data-title="r1c3">8</td>
+                                                        <td class="off disabled" data-title="r1c4">9</td>
+                                                        <td class="off disabled" data-title="r1c5">10</td>
+                                                        <td class="weekend off disabled" data-title="r1c6">11</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="weekend off disabled" data-title="r2c0">12</td>
+                                                        <td class="off disabled" data-title="r2c1">13</td>
+                                                        <td class="off disabled" data-title="r2c2">14</td>
+                                                        <td class="off disabled" data-title="r2c3">15</td>
+                                                        <td class="off disabled" data-title="r2c4">16</td>
+                                                        <td class="off disabled" data-title="r2c5">17</td>
+                                                        <td class="weekend off disabled" data-title="r2c6">18</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="weekend off disabled" data-title="r3c0">19</td>
+                                                        <td class="today active start-date active end-date in-range available"
+                                                            data-title="r3c1">20</td>
+                                                        <td class="available" data-title="r3c2">21</td>
+                                                        <td class="available" data-title="r3c3">22</td>
+                                                        <td class="available" data-title="r3c4">23</td>
+                                                        <td class="available" data-title="r3c5">24</td>
+                                                        <td class="weekend available" data-title="r3c6">25</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="weekend available" data-title="r4c0">26</td>
+                                                        <td class="available" data-title="r4c1">27</td>
+                                                        <td class="available" data-title="r4c2">28</td>
+                                                        <td class="available" data-title="r4c3">29</td>
+                                                        <td class="available" data-title="r4c4">30</td>
+                                                        <td class="off ends available" data-title="r4c5">1</td>
+                                                        <td class="weekend off ends available" data-title="r4c6">2</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="weekend off ends available" data-title="r5c0">3</td>
+                                                        <td class="off ends available" data-title="r5c1">4</td>
+                                                        <td class="off ends available" data-title="r5c2">5</td>
+                                                        <td class="off ends available" data-title="r5c3">6</td>
+                                                        <td class="off ends available" data-title="r5c4">7</td>
+                                                        <td class="off ends available" data-title="r5c5">8</td>
+                                                        <td class="weekend off ends available" data-title="r5c6">9</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="calendar-time" style="display: none;"></div>
+                                    </div>
+                                    <div class="drp-calendar right">
+                                        <div class="calendar-table">
+                                            <table class="table-condensed">
+                                                <thead>
+                                                    <tr>
+                                                        <th></th>
+                                                        <th colspan="5" class="month">July 2022</th>
+                                                        <th class="next available"><span></span></th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Su</th>
+                                                        <th>Mo</th>
+                                                        <th>Tu</th>
+                                                        <th>We</th>
+                                                        <th>Th</th>
+                                                        <th>Fr</th>
+                                                        <th>Sa</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="weekend off ends available" data-title="r0c0">26</td>
+                                                        <td class="off ends available" data-title="r0c1">27</td>
+                                                        <td class="off ends available" data-title="r0c2">28</td>
+                                                        <td class="off ends available" data-title="r0c3">29</td>
+                                                        <td class="off ends available" data-title="r0c4">30</td>
+                                                        <td class="available" data-title="r0c5">1</td>
+                                                        <td class="weekend available" data-title="r0c6">2</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="weekend available" data-title="r1c0">3</td>
+                                                        <td class="available" data-title="r1c1">4</td>
+                                                        <td class="available" data-title="r1c2">5</td>
+                                                        <td class="available" data-title="r1c3">6</td>
+                                                        <td class="available" data-title="r1c4">7</td>
+                                                        <td class="available" data-title="r1c5">8</td>
+                                                        <td class="weekend available" data-title="r1c6">9</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="weekend available" data-title="r2c0">10</td>
+                                                        <td class="available" data-title="r2c1">11</td>
+                                                        <td class="available" data-title="r2c2">12</td>
+                                                        <td class="available" data-title="r2c3">13</td>
+                                                        <td class="available" data-title="r2c4">14</td>
+                                                        <td class="available" data-title="r2c5">15</td>
+                                                        <td class="weekend available" data-title="r2c6">16</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="weekend available" data-title="r3c0">17</td>
+                                                        <td class="available" data-title="r3c1">18</td>
+                                                        <td class="available" data-title="r3c2">19</td>
+                                                        <td class="available" data-title="r3c3">20</td>
+                                                        <td class="available" data-title="r3c4">21</td>
+                                                        <td class="available" data-title="r3c5">22</td>
+                                                        <td class="weekend available" data-title="r3c6">23</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="weekend available" data-title="r4c0">24</td>
+                                                        <td class="available" data-title="r4c1">25</td>
+                                                        <td class="available" data-title="r4c2">26</td>
+                                                        <td class="available" data-title="r4c3">27</td>
+                                                        <td class="available" data-title="r4c4">28</td>
+                                                        <td class="available" data-title="r4c5">29</td>
+                                                        <td class="weekend available" data-title="r4c6">30</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="weekend available" data-title="r5c0">31</td>
+                                                        <td class="off ends available" data-title="r5c1">1</td>
+                                                        <td class="off ends available" data-title="r5c2">2</td>
+                                                        <td class="off ends available" data-title="r5c3">3</td>
+                                                        <td class="off ends available" data-title="r5c4">4</td>
+                                                        <td class="off ends available" data-title="r5c5">5</td>
+                                                        <td class="weekend off ends available" data-title="r5c6">6</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="calendar-time" style="display: none;"></div>
+                                    </div>
+                                    <div class="drp-buttons"><span class="drp-selected">06/20/2022 -
+                                            06/20/2022</span><button class="cancelBtn btn btn-sm btn-default"
+                                            type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary"
+                                            type="button">Apply</button> </div>
+                                </div>
+                                <span class="br-close"><i class="fa-solid fa-xmark"></i></span>
+                            </div>
+                        </label>
+                        <div class="no-hutters_box">
+                            <div class="form-group br-group">
+                                <div class="bm-bar__icon"><i class="fa-solid fa-percent"></i></div>
+                                <input class="br-control form-control" type="text" autocomplete="off" name="NumberRoom"
+                                    id="rooms" placeholder="NO. OF ROOMS" value="" min="1">
+                            </div>
+                        </div>
+                        <div class="no-hutters_box">
+                            <div class="book-btn">
+                                <button class="tran_bg-btn br-btn" type="submit"><span>Check
+                                        Availability</span></button>
+
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs" style="display: none;">
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="#">HOME</a>
+                </li>
+                <li>
+                    <a href="#">OFFERS</a>
+                </li>
+                <li>
+                    <a href="#">DINING RESERVATIONS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="box-page box">
+        <div class="bg-defaut">
+            <img src="../IMG/wave-linebg.svg" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="border-default">
+
+                    </div>
+                    <div class="box__head">
+                        <h1 class="title">DINING RESERVATIONS</h1>
+                    </div>
+                    <div class="box__desc">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="form-request">
+                <form class="form-d_request" action="DiningRequest/SubmitRequest" method="POST" novalidate="novalidate">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="form-group">
+                                <select class="form-control" id="Outlet" name="Outlet">
+                                    <option> Select Your Outlet</option>
+                                    <option value="Round table type"> Round table type</option>
+                                    <option value="Round table type"> Square table type</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="form-group date-group">
+                                <input class="form-control" id="datepicker" autocomplete="off" type="text"
+                                    name="StartDate" placeholder="DATE *"><i class="fas fa-calendar-alt"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="form-group">
+                                <input class="form-control" id="num_of_per" type="text" name="NumberPersons"
+                                    placeholder="Number of persons *">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" id="first_name" type="text" name="FirstName"
+                                    placeholder="First Name *">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" id="last_name" type="text" name="LastName"
+                                    placeholder="Last Name *">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" id="tel" type="tel" name="Phone" placeholder="Phone *">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" id="email" type="text" name="Email" placeholder="Email *">
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <input class="form-control" id="address" type="text" name="Address"
+                                    placeholder="Address">
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <textarea class="form-control input_text" id="add_request" name="Request"
+                                    placeholder="Additional Request"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="custom-control custom-checkbox">
+                                <input class="custom-control-input" id="customCheck2" type="checkbox" name="NoSpam"
+                                    value="true">
+                                <input type="checkbox" name="NoSpam" value="false" hidden="">
+                                <label class="custom-control-label" for="customCheck2"> I confirm the service *</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-btn">
+                                <button class="tran_bg-btn btn event-btn"><span>SUBMIT</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="back-top" style="display: none;">
+        <div class="container">
+            <div class="go-top" onclick="goTop()">
+                <span class="far fa-angle-up">
+                    <i class="fa-solid fa-chevron-up"></i>
+                </span>
+                <span>BACK TO TOP</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer" style="padding-top: 0; display: none;">
+        <div class="footer__bar-wp">
+            <!--<div class="container">
+                <div class="footer__bar">-->
+
+            <!--</div>
+            </div>-->
+        </div>
+        <div class="footer__main" style="padding: 0;">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-5 col-md-6">
+                        <div class="footer__left">
+                            <h3 class="footer__title">Nam Cường Nam Định Hotel</h3>
+                            <ul class="footer__info">
+                                <li><span class="font-weight-bold">Address:</span><span class="ml-2">No. 538 Tran Hung
+                                        Dao, Hoa Vuong Ward, Nam Dinh City</span></li>
+                                <li><span class="font-weight-bold">Tel:</span><a class="ml-2"
+                                        href="tel:+84 228 3676 888">+84 228 3676 888</a>
+                                </li>
+                                <li><span class="font-weight-bold">Hotline:</span><a class="ml-2"
+                                        href="tel:0889 676 888">0889 676 888</a></li>
+                                <li><span class="font-weight-bold">Email:</span><a class="ml-2"
+                                        href="mailto:">info@namcuongnamdinhhotel.com.vn</a></li>
+                                <li><span class="font-weight-bold">Website:</span><a class="ml-2"
+                                        href="https://namcuongnamdinhhotel.com.vn/">Nam Cường Nam Định Hotel</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="footer__title">OURs HOTEL
+                        </h3>
+                        <ul class="footer__info">
+                            <li><a href="/terms-and-conditions">Terms and Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="footer__title ">FLOW US
+                        </h3>
+                        <div class="footer__social">
+                            <ul>
+                                <li><a href="https://www.facebook.com/namdinh.namcuonghotels"><i
+                                            class="fab fa-facebook-square"></i></a></li>
+                                <li><a><i class="fab fa-instagram-square"></i></a></li>
+                                <li><a><i class="fab fa-twitter-square"></i></a></li>
+                                <li><a><img src="../IMG/tripadvisor.png" loading="lazy"></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__copyright">
+
+                    <div class="cr-text">
+                        <p>Copyright © Nam Cuong Hotel. 2021 All Rights Reserved | Managed by NAM CUONG Hotels | <a
+                                href="https://webhotel.vn/">Powered by Webhotel</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed-phone" style="display: none;">
+        <a href="tel:+84 228 3676 888">
+            <img src="../IMG/phone.png" class="img" loading="lazy">
+        </a>
+    </div>
+    <div class="fixed-zalo" style="display: none;">
+        <a href="https://zalo.me/0889676888" target="_blank">
+            <img src="../IMG/zalomau.png" class="img" loading="lazy" style="background-image: none;">
+        </a>
+    </div>
+    <label class="fixed-mess" for="input_94ve" style="display: none;">
+        <div class="fixed-mess-box">
+            <i class="fa-brands fa-facebook-messenger"></i>
+        </div>
+    </label>
+    <input type="checkbox" id="input_94ve" style="display: none;">
+    <div role="none" class="_94ve" style="display: none;">
+        <div class="_94vf _9pmv" role="none">
+            <div class="">
+                <div class="welcomePageModalSheetContent">
+                    <div class="_a2zp">
+                        <div class="_4cqr"><img class="_a3jx img"
+                                src="https://scontent.fthd1-1.fna.fbcdn.net/v/t1.6435-1/154273108_746488499571854_2972119607784275802_n.jpg?stp=cp0_dst-jpg_p74x74&amp;_nc_cat=101&amp;ccb=1-7&amp;_nc_sid=dbb9e7&amp;_nc_ohc=pD3dOmcM9nEAX-Rn0JB&amp;_nc_ht=scontent.fthd1-1.fna&amp;oh=00_AT_OPP5H4-HDw5HhoJNDIGWloE7MdufyrTp5siRHjqTp4g&amp;oe=62D39E7F"
+                                alt="">
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="_9dxh"></div>
+                        <div class="_9dzn">
+                            <div>
+
+                            </div>
+                            <div class="_9q4i">
+                                <div class="_a3x9">
+                                    <label aria-label="Xem thêm" for="mess__box"
+                                        class="oajrlxb2 gs1a9yip g5ia77u1 mtkw9kbi tlpljxtp qensuy8j ppp5ayq2 goun2846 ccm00jje s44p3ltw mk2mc5f4 rt8b4zig n8ej3o3l agehan2d sk4xxmp2 rq0escxv nhd2j8a9 mg4g778l pfnyh3mw p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x tgvbjcpo hpfvmrgz jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso l9j0dhe7 i1ao9s8h esuyzwwr f1sip0of du4w35lb n00je7tq arfg74bv qs9ysxi8 k77z8yql pq6dq46d btwxx1t3 abiwlrkh p8dawk7l lzcic4wl"
+                                        role="button" tabindex="0">
+                                        <div class="n00je7tq arfg74bv qs9ysxi8 k77z8yql i09qtzwb n7fi1qx3 b5wmifdl hzruof5a pmk7jnqg j9ispegn kr520xx4 c5ndavph art1omkt ot9fgl3s"
+                                            data-visualcompletion="ignore"><i class="fa-solid fa-ellipsis"></i></div>
+                                    </label>
+                                </div>
+
+                                <div class="_a3x9">
+                                    <label aria-label="đóng" for="input_94ve"
+                                        class="oajrlxb2 gs1a9yip g5ia77u1 mtkw9kbi tlpljxtp qensuy8j ppp5ayq2 goun2846 ccm00jje s44p3ltw mk2mc5f4 rt8b4zig n8ej3o3l agehan2d sk4xxmp2 rq0escxv nhd2j8a9 mg4g778l pfnyh3mw p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x tgvbjcpo hpfvmrgz jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso l9j0dhe7 i1ao9s8h esuyzwwr f1sip0of du4w35lb n00je7tq arfg74bv qs9ysxi8 k77z8yql pq6dq46d btwxx1t3 abiwlrkh p8dawk7l lzcic4wl"
+                                        role="button" tabindex="0">
+                                        <div class="n00je7tq arfg74bv qs9ysxi8 k77z8yql i09qtzwb n7fi1qx3 b5wmifdl hzruof5a pmk7jnqg j9ispegn kr520xx4 c5ndavph art1omkt ot9fgl3s"
+                                            data-visualcompletion="ignore" style="align-items: center;"><i
+                                                class="fa-solid fa-window-minimize" style="padding-bottom: 9px;"></i>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                            <input type="checkbox" id="mess__box" style="display: none">
+                            <div class="j34wkznp qp9yad78 pmk7jnqg kr520xx4">
+                                <div class="iqfcb0g7 tojvnm2t a6sixzi8 k5wvi7nf q3lfd5jv pk4s997a bipmatt0 cebpdrjk qowsmv63 owwhemhu dp1hu0rb dhp61c6y l9j0dhe7 iyyx5f41 a8s20v7p"
+                                    tabindex="-1">
+                                    <div class="">
+                                        <div class="_a2zy _9r8t _a2-c">
+                                            <div class="_a1ql" tabindex="0" role="button"><a href="#">Truy cập Trang
+                                                    Facebook</a></div>
+                                            <div class="_a1ql" tabindex="0" role="button"><a href="#">Thêm Messenger vào
+                                                    trang web
+                                                    của bạn</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="_a2zr _3qn7 _61-0 _2fyi _3qng">
+                        <div class="_4ik4 _4ik5" style="-webkit-line-clamp: 1;"><strong>Chat với Nam Cuong Nam Dinh
+                                Hotel</strong></div>
+                    </div>
+                    <div class="_a2zs _4ik4 _4ik5" style="-webkit-line-clamp: 1;"></div>
+                    <div class="_a2zt _a6s6 _4ik4 _4ik5" style="-webkit-line-clamp: 3;">Hi! How can we help you?</div>
+                    <div class="_9l4n">
+                        <div class="_a6s8">
+                            <div class="_a6s9">
+                                <div class="_a2zm" tabindex="0" role="button" style="background-color: rgb(8, 86, 73);">
+                                    <span class="continueText _4mr9 _6i6a">Bắt đầu chat</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><span class="_9zb3"><span class="_9zb4"><i
+                                class="fa-brands fa-facebook-messenger"></i></span>Do Messenger cung cấp</span>
+                </div>
+            </div>
+            <div class="_a8d4 _9l4n"></div>
+        </div>
+    </div>
+
+    <script src="../JS/js.js"></script>
+    <script>
+        $(function () {
+            $("#datepicker").datepicker();
+        });
+    </script>
+</body>
+
+</html>

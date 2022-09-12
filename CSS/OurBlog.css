@@ -1,0 +1,132 @@
+.img__box{
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#categories-link{
+    position: absolute;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    max-width: calc(100% - 80px);
+}
+
+#categories-link span a:hover{
+    background-color: #c5965a;
+}
+
+.img__box__column{
+    margin-bottom: 40px;
+}
+
+.img__box__column__image img{
+    width: 100% ;
+}
+
+.site-main{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+#categories-link a{
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 3px 8px;
+    background: #DBA765;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 7px;
+    display: inline-block;
+}
+
+.img__box__column__content__header__link{
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.25;
+}
+
+.img__box__column__content__header__link a{
+    color: #000000;
+    font-size: 30px;
+    line-height: 1.25;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img__box__column__content__header__text{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 17px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #8F8F8F;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.img__box__column__content__header__text a{
+    text-decoration: none;
+}
+
+.img__box__column__content__header__text::before{
+    content: '';
+    width: 30px;
+    height: .5px;
+    margin-right: 15px;
+    background-color: #DBA765;
+}
+
+.img__box__column__content__excerpt{
+    text-align: center;
+}
+
+.entry-date{
+    color: #8F8F8F;
+}
+
+.img__box__column__content__header__text__posted-on::after{
+    content: '/';
+    padding: 0 5px;
+}
+
+.img__box__column__content__header__text__pos-author a{
+    text-decoration: none;
+    color: #8F8F8F;
+}
+
+.img__box__column__content__excerpt p{
+    margin: 0 0 1em;
+}
+
+/* ------------------ */
+
+.navbar_page__box__btn__blog a{
+    color: #DBA765;
+}
+
+.img__box__column__content__header__text__pos-author a:hover, .entry-date.published:hover{
+    color: #000;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1023px) {
+    .container-fluid{
+        padding: 0px !important;
+    }
+
+    .row {
+        margin:  0px !important;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+
+}

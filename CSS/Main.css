@@ -305,7 +305,7 @@
     /* display: flex;
     justify-content: center;
     background-color: aqua; */
-    padding: 0 150px;
+    /* padding: 0 150px; */
     height: 300px;
 }
 
@@ -321,6 +321,8 @@
 .item {
     text-align: center;
     /* height: 300px; */
+    /* text-align: center; */
+    padding: 0 150px;
 }
 
 h2 {
@@ -1054,8 +1056,15 @@ h2 {
         margin: 10px 0 30px !important;
     }
 
+    .item {
+        text-align: center;
+        padding: 0 150px;
+    }
+
     .item h2 {
         font-size: 18px !important;
+        color: red;
+       
     }
 
     .grid_img {

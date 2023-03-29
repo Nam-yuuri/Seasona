@@ -354,6 +354,10 @@
     margin: 0 10px;
 }
 
+.item h2{
+    justify-content: center;
+}
+
 .container-fluid .card-body .card-title {
     display: flex;
     align-items: flex-start;
@@ -1432,7 +1436,7 @@
 
     .item h2{
         padding: 0px !important;
-        font-size: 15px;
+        font-size: 25px;
     }
 
     .testimonial-image-style{
